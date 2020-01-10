@@ -1,0 +1,39 @@
+#back img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+#titleText img {
+    width: 100%;
+    height: auto;
+}
+#rank img {
+    width: 100%;
+    height: auto;
+}
+#start img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+#obstacle2,#obstacle4,#obstacle6 img{
+    
+    transform: rotate(180deg);
+}#firstMelody,#secondMelody img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+#firstMelody { 
+    position: absolute;
+    left: 700px;
+    top: 340px;
+}
+
+#secondMelody { 
+    position: absolute;
+    left: 750px;
+    top: 340px;
+}
